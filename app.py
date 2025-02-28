@@ -28,7 +28,7 @@ if 'cdp_docs' not in st.session_state:
 
 # Groq API key input
 api_key = st.sidebar.text_input("Enter your Groq API Key", type="password")
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 
 # Create Groq client when API key is provided
 groq_client = None
@@ -176,7 +176,7 @@ with st.sidebar:
         ],
         index=0
     )
-    api_key = "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"
+    api_key = ""
     if api_key:
         for cdp, url in CDP_DOCS.items():
             if cdp not in st.session_state.cdp_docs or st.session_state.cdp_docs[cdp] is None:
