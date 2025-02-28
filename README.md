@@ -1,6 +1,6 @@
 # CDP How-To Chatbot
 
-A chatbot application built using **Streamlit**, **CrewAI**, and **Groq API** to provide how-to guidance for major **Customer Data Platforms (CDPs)** like **Segment**, **mParticle**, **Lytics**, and **Zeotap**.
+A chatbot application built using **Streamlit**, **CrewAI**, **Groq API** & **LangChain**  to provide how-to guidance for major **Customer Data Platforms (CDPs)** like **Segment**, **mParticle**, **Lytics**, and **Zeotap**.
 
 ## Features
 - Ask how-to questions about popular CDP platforms.
